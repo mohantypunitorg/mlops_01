@@ -21,8 +21,8 @@ pool:
 resources:
   repositories:
     - repository: mlops-templates # Template Repo
-      name: mlops-templates
-      type: git
+      name: mlops-template
+      type: github
       ref: main
 
 stages:
