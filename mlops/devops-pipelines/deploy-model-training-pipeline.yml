@@ -24,7 +24,6 @@ resources:
       name: mohantypunit/mlops-template
       type: github
       endpoint: mohantypunit
-      ref: main
 
 stages:
   - stage: DeployTrainingPipeline
