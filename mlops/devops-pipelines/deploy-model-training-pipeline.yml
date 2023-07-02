@@ -21,9 +21,9 @@ pool:
 resources:
   repositories:
     - repository: mlops-templates # Template Repo
-      name: mlops-template
+      name: mlops-templates
       type: github
-      endpoint: mohantypunit
+      endpoint: mohantypunitorg
 
 stages:
   - stage: DeployTrainingPipeline
