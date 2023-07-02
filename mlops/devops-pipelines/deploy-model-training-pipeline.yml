@@ -21,7 +21,7 @@ pool:
 resources:
   repositories:
     - repository: mlops-templates # Template Repo
-      name: mlops-template
+      name: mohantypunit/mlops-template
       type: github
       ref: main
 
