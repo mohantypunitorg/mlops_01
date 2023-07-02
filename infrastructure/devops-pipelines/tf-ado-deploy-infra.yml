@@ -21,6 +21,7 @@ resources:
     - repository: mlops-templates # Template Repo
       name: mohantypunitorg/mlops-templates
       type: github
+      endpoint: mohantypunitorg
 
 stages:
   - stage: CreateStorageAccountForTerraformState
