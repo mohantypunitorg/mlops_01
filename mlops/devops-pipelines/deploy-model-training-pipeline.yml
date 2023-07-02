@@ -20,8 +20,8 @@ pool:
 
 resources:
   repositories:
-    - repository: mohantypunit/mlops-templates # Template Repo
-      name: mlops-template
+    - repository: mlops-templates # Template Repo
+      name: mohantypunit/mlops-template
       type: github
       endpoint: mohantypunit
       ref: main
